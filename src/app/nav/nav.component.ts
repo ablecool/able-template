@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent {
+  isMenuOpened = false;
 
   constructor() { }
+
+  toggleMneu() {
+    this.isMenuOpened = !this.isMenuOpened;
+  }
 
 }

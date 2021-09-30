@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AbleIndexComponent } from './able-index/able-index.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+// import { IconsComponent } from './icons/icons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AbleIndexComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    // IconsComponent
   ],
   imports: [
     BrowserModule,

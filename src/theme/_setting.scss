@@ -1,8 +1,11 @@
 $gray-200: #e9ecef !default;
 
 
-$primary:        #0065F2;
-// $secondary:     $gray-600 !default;
+$primary:        #28A6DC;
+$secondary:      #66c8f5;
+$orange:         #E5502E;
+$verdant:        #276139;
+
 // $success:       $green !default;
 // $info:          $cyan !default;
 // $warning:       $yellow !default;
@@ -13,7 +16,7 @@ $primary:        #0065F2;
 // Body
 //
 // Settings for the `<body>` element.
-$body-color:                $primary !default;
+$body-color:                #333333 !default;
 
 // Grid breakpoints
 //
