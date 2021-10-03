@@ -93,3 +93,76 @@ nav {
 .menu.active {
   transform: translateX(0);
 }
+// .slideItem {
+//   width: 255px;
+//   height: 255px;
+//   img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
+// }
+.slider {
+  .slide-item {
+    margin-left: 30px;
+  }
+  :first-child {
+    margin-left: 0;
+  }
+}
+.px255 {
+  width: 255px;
+  height: 255px;
+}
+.px350 {
+  width: 350px;
+  height: 350px;
+}
+.px640-600 {
+  max-width: 640px;
+  max-height: 600px;
+}
+.px640-286 {
+  max-width: 640px;
+  max-height: 286px;
+}
+.full-mask {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bottom-mask {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 64px;
+}
+.image-wrap {
+  display: inline-block;
+  position: relative;
+  .slide-mask {
+    position: absolute;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity .5s ease;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    h4 {
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+}
+.image-wrap:hover .slide-mask {
+  opacity: 1;
+}
+
+.slide-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
